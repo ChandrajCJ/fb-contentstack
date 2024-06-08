@@ -1,0 +1,203 @@
+.Main{
+    display: flex;
+    justify-content: space-between;
+}
+.Rside{
+    height: 50rem;
+    width: 21%;
+    left: 0;
+    flex-wrap: wrap;
+}
+
+
+.Profile{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.Profile>img{
+    border-radius: 50%;
+    width: 40px;
+    height:40px; 
+    padding:1rem;
+}
+
+.Pro{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    font-weight: 550;
+    padding-left: 1rem;
+}
+.Pro>div{
+    margin: 10px;
+}
+.Pros{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 550;
+    padding-left: 1rem;
+    padding: 0 15px;
+    border-bottom: .1rem rgb(68, 62, 61) solid;
+}
+
+.Profiles{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 550;
+}
+
+.Profiles>img{
+    border-radius: 20%;
+    width: 20%;
+}
+
+.shortcuts{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 550;
+}
+.shortcuts>img{
+    border-radius: 30%;
+    width: 40px;
+    height:40px; 
+    padding:.5rem ;
+}
+.shortcutsheader{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 ;
+}
+
+.Profilee>img{
+    height: 2rem;
+    border-radius: 50%;
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.lside{
+    height: 50rem;
+    width: 21%;
+    left: 0;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+}
+.Contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.Contacts{
+    font-size: 1.5rem;
+    font-weight: 550;
+    padding-left: 1rem;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    padding: 2px 20px;
+}
+.chaticon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Profilee{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 550;
+    margin: 1rem 0;
+}
+
+.MainArea{
+    display: grid;
+    width: 50%;
+    height: 30rem;
+    justify-content: center;
+}
+.addStory{
+    display: flex;
+    width: 130%;
+    margin: 18px 0;
+    color: white;
+    font-size: 1.5rem;
+    height: 15rem;
+    justify-content: center;
+    padding-left: 5%;
+}
+.Story{
+    width: 130px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: .5rem;
+    background-color: black;
+    height: 15rem;
+}
+
+.message{
+    display: grid;
+    height: 20rem;
+    width: 80%;
+    height: 20rem;
+    margin-left: 5%;
+}
+
+.post{
+    margin-top: 10%;
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    justify-content: start;
+    background-color: white;
+    margin-left: 10%;
+}
+.post > div{
+    margin-left: 2px;
+}
+.post>img{
+    height: 50px;
+    border-radius: 50%;
+    width: 45px;
+    margin: 12px;
+}
+
+/* input[type=mind]{
+    width: 80%;
+    margin: 15px 0;
+    height: 3rem;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-left: 3%;
+    box-sizing: border-box;
+}
+.Call{
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    background-color: white;
+}
+
+.ico{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+    
+} */
