@@ -6,7 +6,7 @@ import {AiFillFileImage} from 'react-icons/ai'
 const MainFeed = () => {
     return (
         <div className='Main'>
-            <div className="Rside">
+            <div className="rightside">
                 <div className="Profile">
                     <img src="/images/1.jpg" alt="" />
                     Chandraj N
@@ -54,7 +54,7 @@ const MainFeed = () => {
                     <div className="">See More</div>
                 </div>
             </div>
-            <div className="MainArea">
+            <div className="midsection">
                 <div className="addStory">
                     <div className="Story">
                         <img src="/images/1.jpg" alt="" style={{height:"40px", width:"40px", borderRadius:"50%"}} />
@@ -102,12 +102,12 @@ const MainFeed = () => {
                     </div> */}
                 </div>
             </div>
-            <div className="lside">
+            <div className="leftside">
                 {/* <div className="Contact">
                     
                 </div> */}
             </div>
-            <div className="concise">
+            <div className="contained">
                 <div className="chaticon">
                     <div className="Contacts">
                         Contacts
@@ -119,23 +119,23 @@ const MainFeed = () => {
                         <MdMoreHoriz fontSize="1.2rem" />
                     </div>
                 </div>
-                <div className="Profilee">
+                <div className="profileDet">
                     <img src="/images/1.jpg" alt="" />
                     Chandraj N
                 </div>
-                <div className="Profilee">
+                <div className="profileDet">
                     <img src="/images/2.jpg" alt="" />
                     Sooraj
                 </div>
-                <div className="Profilee">
+                <div className="profileDet">
                     <img src="/images/3.jpg" alt="" />
                     Tushar
                 </div>
-                <div className="Profilee">
+                <div className="profileDet">
                     <img src="/images/4.jpg" alt="" />
                     Kathir
                 </div>
-                <div className="Profilee">
+                <div className="profileDet">
                     <img src="/images/5.jpg" alt="" />
                     Tharni
                 </div>

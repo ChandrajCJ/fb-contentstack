@@ -6,7 +6,7 @@ const LoginPage = () => {
     return (
         <div className='LoginPage'>
             <div className="facebook">
-                <div className="facebooktext">
+                <div className="fbtext">
                     facebook
                 </div>
                 <div className="title">
@@ -22,8 +22,8 @@ const LoginPage = () => {
                             Login
                         </button></Link>
                     </div>
-                    <div className="forget">
-                        <a href="forget">Forgot Password</a>
+                    <div className="forgetpassword">
+                        <a href="forgetpassword">Forgot Password</a>
                         <br />
                         <button className='btns'>
                             Create New Account

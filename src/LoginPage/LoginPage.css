@@ -14,7 +14,7 @@ body{
     justify-content: space-evenly;
 }
 
-.facebooktext{
+.fbtext{
     padding: 1rem;
     font-size: 4rem;
     color: #1877F2;
@@ -61,7 +61,7 @@ body{
     border-radius: .5rem;
 }
 
-.forget a{
+.forgetpassword a{
     color: #1877F2;
     align-items: center;
     justify-content: center;
@@ -98,7 +98,7 @@ body{
 .page{
     font-size: 1rem;
 }
-.forget > a{
+.forgetpassword > a{
     padding-bottom: 5%;
     border-bottom: .1rem black solid;
 }
